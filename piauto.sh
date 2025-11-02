@@ -8,7 +8,7 @@ logfile="$logdir/piauto.log"
 #Set nfs variables
 mntdir="/mnt"
 mntpoint="$mntdir/remotebackup"
-nassvr="192.168.1.41"
+nassvr="192.168.0.41"
 nassvrpath=/volume2/Backups
 nasdir="$nassvr:$nassvrpath"
 nasdest="$nasdir/$HOSTNAME"
